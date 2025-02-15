@@ -1,0 +1,15 @@
+/* style.css */
+.container {
+    text-align: center;
+    margin: 100px auto;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.error {
+    color: red;
+    display: none;
+}

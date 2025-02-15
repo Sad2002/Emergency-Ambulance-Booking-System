@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+
+}
+
+form {
+  max-width: 600px;
+  height:900px;
+  margin: 0 auto;
+  margin-top:1cm;
+  margin-bottom:5cm;
+  background-color: #fcf9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #00b300;
+}
+
+.btn{ 
+   
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+  border: none;
+  color: #fff; 
+  width: 70px;
+  height:40px;
+background-color: #0da70d;
+   text-decoration: none;
+   border-radius: 8px;
+   border-style: none;
+   box-sizing: border-box;
+   color: #f8f4f4;
+   cursor: pointer;
+   display: inline-block;
+   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20px;
+   list-style: none;
+   margin: 0;
+   outline: none;
+   padding: 10px 16px;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   transition: color 100ms;
+   vertical-align: baseline;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+
+
+ .btn:hover,
+ .btn:focus {
+   background-color: #0cb01d;
+ }
+
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  .jumbotron {
+      margin-top: 10px;
+  }
+}
+
